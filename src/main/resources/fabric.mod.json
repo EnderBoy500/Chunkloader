@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "chunkloader",
+	"version": "${version}",
+	"name": "The Chunk Loader Mod",
+	"description": "",
+	"authors": [
+		"Enderboy500"
+	],
+	"contact": {},
+	"license": "EBMC-1A",
+	"icon": "assets/chunkloader/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.enderboy500.chunkloader.TheChunkLoaderMod"
+		],
+		"client": [
+			"io.github.enderboy500.chunkloader.client.TheChunkLoaderModClient"
+		],
+		"fabric-datagen": [
+          "io.github.enderboy500.chunkloader.data.TheChunkLoaderModDataGenerator"
+		]
+	},
+	"mixins": [
+		"chunkloader.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

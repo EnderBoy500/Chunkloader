@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "chunkloader:block/smart_chunk_loader"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "GNG",
+    "#O#"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "G": "minecraft:glass",
+    "N": "minecraft:nether_star",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "chunkloader:chunk_loader"
+  }
+}

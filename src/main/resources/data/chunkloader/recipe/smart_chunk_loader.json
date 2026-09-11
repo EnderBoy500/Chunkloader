@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "=#=",
+    "#N#",
+    "oOo"
+  ],
+  "key": {
+    "=": "minecraft:netherite_ingot",
+    "#": "minecraft:glass",
+    "N": "minecraft:nether_star",
+    "o": "minecraft:diamond",
+    "O": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "chunkloader:smart_chunk_loader"
+  }
+}
