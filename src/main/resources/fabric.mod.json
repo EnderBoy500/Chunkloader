@@ -29,6 +29,7 @@
 		"fabricloader": "*",
 		"minecraft": "~1.21.11",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"cipherlib": ">=1.1.1-1.21.1"
 	}
 }

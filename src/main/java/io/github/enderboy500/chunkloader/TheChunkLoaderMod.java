@@ -1,6 +1,5 @@
 package io.github.enderboy500.chunkloader;
 
-import io.github.ciph3rj.cipherlib.Cipher;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -18,8 +17,6 @@ public class TheChunkLoaderMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing The Chunk Loader Mod");
-
-		Cipher.addModId(MOD_ID);
 
 		ModBlocks.load();
 
